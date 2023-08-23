@@ -1,15 +1,14 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/app/(components)/Navbar";
 
 export default function Loading() {
   // Or a custom loading skeleton component
   return (
     <>
-      <Navbar />
-      <div className="w-screen h-screen flex justify-center items-center bg-green-900">
+      <div className="w-full h-screen flex justify-center items-center bg-gray-900">
         <div role="status">
           <svg
             aria-hidden="true"
-            className="inline w-8 h-8 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-yellow-400"
+            className="inline w-20 h-20 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-yellow-400"
             viewBox="0 0 100 101"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

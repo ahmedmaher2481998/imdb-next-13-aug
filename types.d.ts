@@ -39,7 +39,7 @@ export interface IMovieDetails {
     original_language: string;
     original_title: string;
     overview: string;
-    popularity: 3816.744;
+    popularity: number;
     poster_path: string;
     production_companies: {
         id: number;

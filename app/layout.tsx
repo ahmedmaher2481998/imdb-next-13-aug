@@ -1,5 +1,5 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import Footer from "@/app/(components)/Footer";
+import Navbar from "@/app/(components)/Navbar";
 import type { Metadata } from "next";
 import { Aleo } from "next/font/google";
 
@@ -21,7 +21,7 @@ export default function RootLayout({
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={aleo.className}>
+      <body className={`${aleo.className} bg-gray-900 text-white`}>
         <Navbar />
 
         {children}

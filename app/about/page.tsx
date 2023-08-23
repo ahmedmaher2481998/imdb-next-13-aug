@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/app/(components)/Navbar";
 const About = () => {
   return (
     <div className="flex flex-col">

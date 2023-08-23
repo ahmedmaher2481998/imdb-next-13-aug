@@ -17,7 +17,7 @@ const Card = ({ result: movie }: props) => {
           className="object-cover w-full"
           height={200}
         />
-        <div className="bg-slate-200 py-2 px-4 ">
+        <div className="bg-slate-800 py-2 px-4 ">
           <p
             className={`text-xs w-fit py-1 px-2 rounded-xl  ${
               movie.adult ? "bg-pink-500" : "bg-green-500"
